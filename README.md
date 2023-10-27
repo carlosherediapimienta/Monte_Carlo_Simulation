@@ -1,4 +1,4 @@
-# Monte_Carlo_Simulations
+# Monte Carlo Simulations
 Project based on Monte Carlo simulation techniques. Manily, the tools described in this project are taken from the Penelope program, but in Python instead of Fortran.
 
 **Citation:** 
