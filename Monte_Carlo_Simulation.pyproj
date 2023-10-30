@@ -21,6 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="MC\distribution_samplings.py" />
     <Compile Include="MC\random_number_generator.py">
       <SubType>Code</SubType>
     </Compile>
