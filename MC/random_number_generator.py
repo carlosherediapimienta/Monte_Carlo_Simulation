@@ -28,7 +28,7 @@ class RandomGenerator:
     def generate_random_number(self, seed1, seed2):
 
         # Fixed values:
-        uscale = 1/2.147483563e9
+        uscale = 1.0e0/2.147483563e9
 
         # Calculations 1:
         I1 = seed1/53668
@@ -52,7 +52,7 @@ class RandomGenerator:
         # Random number
         random_number = IZ*uscale
 
-        return random_number
+        return random_number, seed1, seed2
 
 ###############################################################################
 ######                            SEEDS                                    ####
